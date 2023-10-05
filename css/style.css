@@ -1,7 +1,49 @@
+body, head {
+    background-color: #f0f0f0;
+}
+
 h1 {
     font-family: 'Abel', sans-serif;;
 }
 
 h2 {
     font-family: 'Anton', sans-serif;;
+}
+
+.icon {
+    height: 200px;
+    width: 200px;
+    border:15px solid white;
+    font-family: "Anton", sans-serif;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto auto 20px;
+}
+
+#design {
+    background-color: #e6563b;
+}
+
+#develop {
+    background-color: #eb9d3a;
+}
+
+#support {
+    background-color: #7cb06c;
+}
+
+#host {
+    background-color: #00aba9;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.card-img-top {
+    border-radius: 0;
 }

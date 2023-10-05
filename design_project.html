@@ -10,10 +10,11 @@
     <meta charset="UTF-8">
     <title>Grid system exercise</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <!-- NAV BAR -->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg ">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">codeup design</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,21 +47,72 @@
     FROM PARK CITY, UTAH
 </h2>
 
-<div class="container">
-    <div class="row">
-        <div class="col-lg-3 col-md-6">
-            <p>
+<!-- ROUND ICONS -->
+<div class="container text-center">
+    <div class="row justify-content-sm-center">
+        <div class="col-sm-6">
+            <div id="design" class="icon rounded-circle">
+                <p>DESIGN</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="develop" class="icon rounded-circle">
+                <p>DEVELOP</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="support" class="icon rounded-circle">
+                <p>SUPPORT</p>
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="host" class="icon rounded-circle">
+                <p>HOST</p>
+            </div>
+        </div>
+    </div>
+</div>
 
-            </p>
+<hr>
+
+<p>SELECTED WORK</p>
+<!-- IMAGES -->
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card">
+                <img src="img/apple-ipad.jpg" class="card-img-top border border-5" alt="apples with ipad">
+                <div class="card-body">
+                    <p class="card-text">FEATURED PROJECT</p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <p>Elit rerum asperiores nostrum ipsum sint debitis et, quos harum. Ut reiciendis id dolorem dolorum ad ex in. Illo odit atque dolore corporis vero? Voluptatum cupiditate quisquam perspiciatis obcaecati neque.</p>
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">FEATURED PROJECT.</p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <p>Sit quibusdam dolorum delectus ducimus consequatur ullam cupiditate quia sit, laboriosam distinctio distinctio est blanditiis vitae laudantium dolore? Tempore doloremque aspernatur repellat consectetur sit vero velit possimus suscipit? Odit doloremque?</p>
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">FEATURED PROJECT</p>
+                </div>
+            </div>
         </div>
-        <div class="col-lg-3 col-md-6">
-            <p>Consectetur doloribus dolor quia iste sint! Totam suscipit possimus deserunt adipisci beatae? Mollitia explicabo voluptates hic delectus voluptates commodi necessitatibus perferendis. Rem ipsam itaque illo perspiciatis illo doloribus. Enim iste.</p>
+        <div class="col">
+            <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">FEATURED PROJECT</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
