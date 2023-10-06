@@ -10,6 +10,14 @@ h1, h2, h3 {
     font-family: 'Anton', sans-serif;;
 }
 
+h1 {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 45px;
+}
+
 h3 {
     padding-left: 15px;
     margin: 8px;
