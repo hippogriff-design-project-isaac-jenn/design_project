@@ -10,6 +10,11 @@ h1, h2, h3 {
     font-family: 'Anton', sans-serif;;
 }
 
+h3 {
+    padding-left: 15px;
+    margin: 8px;
+}
+
 .navbar img {
     height: 105px;
     width: 105px;
@@ -88,4 +93,8 @@ p {
     width: 75px;
     background-color: #e6e6e6;
     border-color: #e6e6e6;
+}
+
+#tweet {
+    margin-top: 50px;
 }
