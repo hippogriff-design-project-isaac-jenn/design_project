@@ -6,7 +6,7 @@ body, head {
     font-family: 'Abel', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Anton', sans-serif;;
 }
 
@@ -81,4 +81,11 @@ p {
     /*flex-direction: row;*/
     /*justify-content: center;*/
     /*align-items: center;*/
+}
+
+.img-thumbnail {
+    height: 70px;
+    width: 75px;
+    background-color: #e6e6e6;
+    border-color: #e6e6e6;
 }
