@@ -2,11 +2,11 @@ body, head {
     background-color: #f0f0f0;
 }
 
-h1 {
-    font-family: 'Abel', sans-serif;;
+.navbar a {
+    font-family: 'Abel', sans-serif;
 }
 
-h2 {
+h1, h2 {
     font-family: 'Anton', sans-serif;;
 }
 
@@ -46,4 +46,13 @@ h2 {
 
 .card-img-top {
     border-radius: 0;
+}
+
+.card-text {
+    text-align: start;
+    font-family: 'Abel', sans-serif;
+}
+
+.row p {
+    font-family: 'Abel', sans-serif;
 }
